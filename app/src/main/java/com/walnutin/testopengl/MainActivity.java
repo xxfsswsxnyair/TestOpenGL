@@ -411,7 +411,7 @@ public class MainActivity extends AppCompatActivity implements IOpenGlDemo {
         float[] mat_diff = {1.0f, 0.4f, 0.4f, 1.0f,};
         float[] mat_spec = {1.0f, 1.0f, 1.0f, 1.0f,};
 
-        //test1
+        //test1  test3
 
         ByteBuffer mabb = ByteBuffer.allocateDirect(mat_amb.length*4);
         mabb.order(ByteOrder.nativeOrder());
